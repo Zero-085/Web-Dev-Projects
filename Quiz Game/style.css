@@ -35,3 +35,51 @@ body {
 .screen.active {
     display: block;
 }
+
+/* START SCREEN */
+
+#start-screen h1 {
+    color: #e86a33;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.quiz-header {
+    margin-bottom: 2rem;
+}
+
+#question-text {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.quiz-info {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.answers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.answers-btn {
+    background-color: #f8f0e5;
+    color: #333;
+    border: 2px solid #eadbc8;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    text-align: left;
+}
+
+.answers-btn:hover {
+    background-color: #eadbc8;
+    border-color: #eac0ae;
+}
