@@ -9,10 +9,37 @@
   <body>
     <div class="container">
       <div class="screen active" id="start-screen">
-        <h1>Quiz Time!</h1>
-        <p>Test your knowledge with these fun questions</p>
-        <button id="start-btn">Start Quiz</button>
-      </div>
+  <h1>Quiz Time!</h1>
+  <p>Customize your challenge</p>
+
+  <div class="config">
+    <label>Number of Questions</label>
+    <select id="amount">
+      <option value="5">5</option>
+      <option value="10">10</option>
+      <option value="15">15</option>
+    </select>
+
+    <label>Difficulty</label>
+    <select id="difficulty">
+      <option value="">Any</option>
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+
+    <label>Category</label>
+    <select id="category">
+      <option value="">Any</option>
+      <option value="9">General Knowledge</option>
+      <option value="17">Science & Nature</option>
+      <option value="18">Computers</option>
+      <option value="23">History</option>
+    </select>
+  </div>
+
+  <button id="start-btn">Start Quiz</button>
+</div>
 
       <div class="screen" id="quiz-screen">
         <div class="quiz-header">

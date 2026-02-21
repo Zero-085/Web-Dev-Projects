@@ -184,3 +184,18 @@ button:hover {
     font-size: 1rem;
   }
 }
+
+/* More Elements */
+
+.config {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
